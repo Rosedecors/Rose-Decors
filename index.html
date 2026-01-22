@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foto Ímãs Personalizados</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #ff3366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+      background: white;
+    }
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background: #ff3366;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    .card p {
+      font-size: 16px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Foto Ímãs Personalizados
+  </header>
+
+  <section class="hero">
+    <h2>Modelos Disponíveis</h2>
+    <p>Escolha o tamanho ideal para seus ímãs!</p>
+    <a class="btn" href="#produtos">Ver Modelos</a>
+  </section>
+
+  <section id="produtos" class="produtos">
+    <div class="card">
+      <img src="https://via.placeholder.com/250?text=Modelo+TXT" alt="Ímã TXT cm" />
+      <h3>Modelo TXT cm</h3>
+      <p>Unidade: R$ 10,00</p>
+      <a class="btn" href="https://wa.me/5547997142321?text=Quero+comprar+o+modelo+TXT+cm">WhatsApp</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/250?text=PACK+5+Unidades" alt="Pack 5 unidades" />
+      <h3>PACK com 5 unidades</h3>
+      <p>Parede: R$ 8,00</p>
+      <a class="btn" href="https://wa.me/5547997142321?text=Quero+um+PACK+com+5+unidades">WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Foto Ímãs Personalizados — Seus momentos viram decoração
+  </footer>
+</body>
+</html>
